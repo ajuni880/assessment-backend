@@ -41,6 +41,8 @@ npm test
 
 ### Endpoints
 
+**For testing you can use [Postman](https://www.getpostman.com/) or any other client.**
+
 Test login. **Send body with email property**
 ```
 POST /users/login
