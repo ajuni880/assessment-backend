@@ -47,27 +47,28 @@ Test login. **Send body with email property**
 ```
 POST /users/login
 ```
+*All the below endpoint are private. Be careful of being logged in.*
 
 Test Get	user	data	filtered	by	user	id	->	Can	be	accessed	by	users	with	role	"users"	
-and	"admin". **You must be logged in**.
+and	"admin".
 ```
 GET /api/users/:id
 ```
 
 Test Get	user	data	filtered	by	user	name	->	Can	be	accessed	by	users	with	role	
-"users"	and	"admin". **You must be logged in. You must send name query param.**
+"users"	and	"admin". **You must send name query param.**
 ```
 GET /api/users/?name=name
 ```
 
 Test Get	the	list	of	policies	linked	to	a	user	name	->	Can	be	accessed	by	users	with	
-role	"admin"". **You must be logged in.**
+role	"admin"". 
 ```
 GET /api/users/:name/policies
 ```
 
 Get	the	user	linked	to	a	policy	number	->	Can	be	accessed	by	users	with	role	
-"admin". **You must be logged in.**
+"admin".
 ```
 GET /api/users/policies/:id
 ```
