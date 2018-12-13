@@ -80,7 +80,4 @@ For further details you can check the tests files.
 * [axios](https://jwt.io) - Library for handling HTTP requests
 * [dotenv](https://www.npmjs.com/package/dotenv) - Used for load environment variables in process.env
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
