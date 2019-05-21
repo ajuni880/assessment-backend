@@ -13,7 +13,7 @@ exports.getClient = async (req, res) => {
   }
 }
 
-exports.getClientByQuery = async (req, res) => {debugger;
+exports.getClientByQuery = async (req, res) => {
   const { name } = req.query;
   try {
     const client = await Client.findByField({ name }, true);
